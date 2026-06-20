@@ -1,0 +1,8 @@
+field,correct,total,accuracy
+evidence_standard_met,19,20,0.9500
+risk_flags,11,20,0.5500
+issue_type,9,20,0.4500
+object_part,16,20,0.8000
+claim_status,17,20,0.8500
+valid_image,19,20,0.9500
+severity,10,20,0.5000

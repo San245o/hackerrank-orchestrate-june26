@@ -1,0 +1,24 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated API caches
+code/.cache/
+
+# Local smoke/dry-run outputs
+output_dry_run.csv
+output_smoke.csv
+
+# OS/editor noise
+.DS_Store
+.~lock.*#

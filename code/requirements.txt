@@ -1,0 +1,17 @@
+# Requirements — HackerRank Orchestrate solution
+#
+# No third-party packages. The solution uses only the Python standard library
+# (urllib for HTTP, json, csv, base64, hashlib, dataclasses, pathlib), so there is
+# nothing to `pip install`.
+#
+# Runtime:
+#   - Python >= 3.10   (uses `X | None` union annotations; developed/tested on 3.12)
+#
+# Configuration:
+#   - GEMINI_API_KEY environment variable (Google AI Studio / Gemini API key).
+#     Put it in a .env file at the repo root and `set -a && . ./.env && set +a`.
+#
+# Models used (Gemini API, v1beta generateContent):
+#   - gemini-3.5-flash        (batched: describe + verify)
+#   - gemini-3-flash-preview  (batched: decide)
+#   - gemini-3.1-flash-lite   (per-row baseline)
